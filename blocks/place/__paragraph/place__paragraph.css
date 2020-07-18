@@ -10,6 +10,9 @@
     grid-column: 2;
     padding: 0 0 24px 0;
 }
+.place__paragraph:last-of-type {
+    padding-bottom: 0;
+}
 @media screen and (max-width: 1024px) {
     .place__paragrap {
         max-width: 456px;
@@ -20,5 +23,13 @@
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 16px 24px 16px;
     }
 }

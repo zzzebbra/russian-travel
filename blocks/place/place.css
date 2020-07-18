@@ -24,3 +24,10 @@
         min-height: 400px;
     }
 }
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 320px;
+        grid-template-rows: 35px 320px repeat(2, 260px);
+        grid-row-gap: 32px;
+    }
+}

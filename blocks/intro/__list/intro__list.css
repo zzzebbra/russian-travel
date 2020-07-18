@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0 0 92px 0;
 }
+@media screen and (max-width: 768px) {
+    .intro__list {
+        padding: 0 0 88px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__list {
+        padding: 0 0 64px 0;
+    }
+}

@@ -17,3 +17,8 @@
         min-height: 480px;
     }
 }
+@media screen and (max-width: 320px) {
+    .cover {
+        min-height: 200px;
+    }
+}

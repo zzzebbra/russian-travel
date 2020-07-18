@@ -6,12 +6,12 @@
     max-width: 984px;
     margin: 0 auto;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
     .lead {
         max-width: 928px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead {
         max-width: 768px;
     }
