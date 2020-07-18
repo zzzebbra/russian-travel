@@ -3,3 +3,16 @@
     height: 460px;
     grid-row: 2/3;
 }
+@media screen and (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+        grid-row: 2/3;
+    }
+}

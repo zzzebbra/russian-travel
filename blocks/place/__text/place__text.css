@@ -1,0 +1,11 @@
+.place__text {
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 1024px) {
+    .place__text {
+        min-height: 440px;
+    }
+}

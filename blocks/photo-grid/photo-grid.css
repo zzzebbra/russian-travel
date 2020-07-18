@@ -7,3 +7,20 @@
     grid-gap: 16px;
     padding: 0 0 92px 0;
 }
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(4, 225px);
+        grid-gap: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 352px);
+        grid-template-rows: repeat(6, 264px);
+        grid-gap: 16px;
+        padding: 0 0 88px 0;
+    }
+}

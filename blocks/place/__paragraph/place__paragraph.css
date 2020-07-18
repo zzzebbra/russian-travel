@@ -8,5 +8,17 @@
     margin: 0;
     max-width: 484px;
     grid-column: 2;
-
+    padding: 0 0 24px 0;
+}
+@media screen and (max-width: 1024px) {
+    .place__paragrap {
+        max-width: 456px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
