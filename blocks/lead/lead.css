@@ -3,4 +3,6 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 984px;
+    margin: 0 auto;
 }

@@ -1,7 +1,8 @@
-.header {
+.footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 28px 48px 56px;
+    padding: 0 48px 24px 48px;
     max-width: 1280px;
     margin: 0 auto;
 }
