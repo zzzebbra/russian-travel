@@ -1,5 +1,5 @@
 .place__paragraph {
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,19 +13,19 @@
 .place__paragraph:last-of-type {
     padding-bottom: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
     .place__paragrap {
         max-width: 456px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .place__paragraph {
         max-width: 288px;
         font-size: 16px;
