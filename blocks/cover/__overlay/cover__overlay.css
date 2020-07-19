@@ -9,4 +9,5 @@
 }
 .cover__overlay:hover {
     opacity: 0.8;
+    transition-duration: 0.5s;
 }

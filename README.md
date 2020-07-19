@@ -3,7 +3,7 @@
 ### В данном курсовом проекте была реализована адаптивная вёрстка по макету в Figma (по ссылке ниже).
 В проекте использованы технологии флекс и грид-контейнеров, используются медиазапросы для корректного отображения в разных разрешениях.
 
-
+[Ссылка на проект](https://zzzebbra.github.io/russian-travel/index.html)
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
 
